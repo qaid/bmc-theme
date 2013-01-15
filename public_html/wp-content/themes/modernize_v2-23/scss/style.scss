@@ -71,7 +71,7 @@ $color-beige: #f1f0e6;
 	h1, h2, h3, h4, h5, h6 {
 		color: $color-blue;
 		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
-		font-weight: normal; line-height: 1; }
+		font-weight: normal; line-height: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { margin-bottom: 15px;}
 	h2 { margin-bottom: 15px; }
@@ -630,7 +630,7 @@ div.footer-wrapper #wp-calendar caption{ font-size:15px; border: none; margin-bo
 div.footer-wrapper div.custom-sidebar .recent-post-widget-thumbnail {  -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 
 /*--- Copyright ---*/
-div.copyright-wrapper{ padding-top: 12px; padding-bottom: 12px; font-size: 11px; font-weight: bold; }
+div.copyright-wrapper{ padding-top: 12px; padding-bottom: 12px; font-size: 11px; font-weight: normal; }
 div.copyright-left{ text-align: left; float: left; margin-left: 20px; }
 div.copyright-right{ text-align: right; float: right; margin-right: 20px; } 
 
