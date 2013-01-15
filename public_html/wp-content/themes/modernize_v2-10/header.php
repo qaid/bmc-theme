@@ -132,15 +132,6 @@
 					?>
 				</div>
 			</div>
-			
-			<!-- BMC Branding Extension -->
-			<div class="eight columns mt0">
-				<div class="bmc-header-branding">
-					<img src="http://localhost/bmc/public_html/wp-content/uploads/2012/11/rakim-quote.png" width="476" height="200" >	
-				</div>
-				
-			</div>			
-			
 			<!-- Get Social Icons -->
 			<div class="eight columns mt0 outer-social-wrapper">
 				<div class="social-wrapper">
@@ -201,14 +192,12 @@
 				?>
 				<div class="navigation-wrapper">
 					<!-- Get Navigation -->
-					<div class="navigation-grunge-texture"></div>
 					<?php wp_nav_menu( array('container' => 'div', 'container_class' => 'menu-wrapper', 'container_id' => 'main-superfish-wrapper', 'menu_class'=> 'sf-menu',  'theme_location' => 'main_menu' ) ); ?>
 					
 					<!-- Get Search form -->
 					<?php if(get_option(THEME_SHORT_NAME.'_enable_top_search','enable') == 'enable'){?>
 					<div class="search-wrapper"><?php get_search_form(); ?></div> 
 					<?php } ?>
-					
 					
 					<br class="clear">
 				</div>
