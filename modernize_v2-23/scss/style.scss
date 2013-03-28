@@ -62,7 +62,6 @@ $color-beige: #f1f0e6;
 		font-family: "HelveticaNeue", "Helvetica Neue", Arial, sans-serif;
 		color: #666;
 		-webkit-text-size-adjust: 100%;
-		line-height: 18.5px;
  }
  	html{ min-height: 100%; }
 
@@ -85,7 +84,7 @@ $color-beige: #f1f0e6;
 	
 	.subheader { color: #777; }
 
-	p { margin: 0 0 20px 0; }
+	p { margin: 0 0 20px 0; font-size:15px; line-height:19px !important; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
